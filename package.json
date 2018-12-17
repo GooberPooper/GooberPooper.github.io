@@ -1,0 +1,30 @@
+{
+  "name": "GooberPooper.github.io",
+  "version": "1.0.0",
+  "description": "Static website for generating reddit thread posts",
+  "main": "index.js",
+  "repository": "https://github.com/GooberPooper/GooberPooper.github.io.git",
+  "author": "GooberPooper",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.0",
+    "@babel/preset-react": "^7.0.0",
+    "@storybook/cli": "^4.1.2",
+    "@storybook/react": "^4.1.2",
+    "babel-loader": "^8.0.4",
+    "eslint": "^5.10.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "html-webpack-plugin": "^3.2.0",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "styled-components": "^4.1.3",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.prod.config.js",
+    "start": "webpack-dev-server"
+  }
+}
